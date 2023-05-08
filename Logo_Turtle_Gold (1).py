@@ -37,7 +37,7 @@ def main():
     newwin = curses.newwin(round(y/2), round(x/2), 0, 0)  
     newwin.bkgd(curses.color_pair(3))
 
-    #Coloca os objetos na janela nescessaria
+    #Coloca os objetos na janela necessaria
     newwin.clear()  
     newwin.box(curses.ACS_VLINE | curses.color_pair(1) , curses.ACS_HLINE | curses.color_pair(1))                              
     newwin.addstr(round(y/4) - 2,round(x/4) - 10,  "| LOGO TURTLE GAME |" , curses.color_pair(1))       #Cria o texto
